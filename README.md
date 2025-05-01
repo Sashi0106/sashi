@@ -93,3 +93,19 @@ l2=[[1,2],[3,4]]
 l2.append([11,22])
 print(l2)
 ///
+#flat list operations
+nest=[[1,2],[3,4]]
+flat=[item for sub in nest for item in sub]
+print(flat)
+///
+ nestnum=[[1,2], [3,4], [5,6]]
+flat=[]
+for sub in nest:
+    for item in sub:
+        flat.append(item)
+        print(flat)
+output:
+[1]
+[1, 2]
+[1, 2, 3]
+[1, 2, 3, 4]
