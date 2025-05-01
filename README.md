@@ -80,8 +80,16 @@ print(fruits)
 fruits.reverse() #printng by decrement order
 print(fruits)
 ///
-# nested list
+#Nested list operations
 nestnum=[[1,2], [3,4], [5,6]]
 print(nestnum[1]) #index of num
 print(nestnum[2][0]) #index of index of num
 print(nestnum[1][1]) # here it is printing 1st index position of num and i that printing 1st index postion of[3,4] its is known as nested list..
+nestnum[2][1]=99
+print(nestnum)
+nestnum[2]=100
+print(nestnum)
+l2=[[1,2],[3,4]]
+l2.append([11,22])
+print(l2)
+///
