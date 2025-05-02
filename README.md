@@ -109,3 +109,30 @@ output:
 [1, 2]
 [1, 2, 3]
 [1, 2, 3, 4]
+///
+# basics_2
+print("6".ljust(10,"0"))
+print("6".rjust(10,"0"))
+print("India".swapcase())
+print("661".zfill(4))
+print("india wins".title())
+#find()
+print("one key for a lock".find("for")) #finding from starting
+print("one key for a lock".rfind("for"))#finding from last
+#count
+print("mississippi is in usa".count('s'))
+#isalnum() (is alpha num)
+print("jamesbond007".isalnum())
+#isalpha
+print("jamesbond".isalpha())
+print("jamesbond007".isalpha())
+#isdigit
+print('444'.isdigit())
+print('444.4'.isdigit())
+#islower and upper
+print('hi'.islower())
+print('hi'.isupper())
+#isspace()
+print(' '.isspace())
+print(''.isspace())
+///
